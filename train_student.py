@@ -272,7 +272,7 @@ def main():
             torch.save(state, save_file)
 
     # This best accuracy is only for printing purpose.
-    print('best accuracy:', best_acc.numpy())
+    print('best accuracy:', best_acc.cup().numpy())
 
     # save model
     state = {
