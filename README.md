@@ -13,10 +13,12 @@ torchvision 0.4.0
 
 ## Evaluation
 To evaluate our pre-trained light-weight student networks, first download the folder "pretrained_student_model" from [CID models] into the "save" folder,  then simply run the command below to evaluate these light-weight students:\
+
 `run evaluate_scripts.sh`
 
 ## Training
 To train students from scratch by distilling knowledge from teacher networks with CID, first download the pretrained teacher folder "models" from [CID models] into the "save" folder, and then simply run the command below to compress large models to smaller ones:\
+
 `run train_scripts.sh`
 
 [CID models]: https://drive.google.com/drive/folders/1s-NwnDw3VXc_r87-XHEg1iM0KhxpXlbj?usp=sharing
