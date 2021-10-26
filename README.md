@@ -1,6 +1,6 @@
 # Comprehensive Knowledge Distillation with Causal Intervention
 
-This repository is a PyTorch implementation of "Comprehensive Knowledge Distillation with Causal Intervention".
+This repository is a PyTorch implementation of "Comprehensive Knowledge Distillation with Causal Intervention". The code is modified from [CRD], and the pretrained teachers (except WRN-40-4) are also downloaded from [CRD].
 
 ## Requirements
 
@@ -20,9 +20,6 @@ To train students from scratch by distilling knowledge from teacher networks wit
 `train_scripts.sh`
 
 [CID models]: https://drive.google.com/drive/folders/1s-NwnDw3VXc_r87-XHEg1iM0KhxpXlbj?usp=sharing
-
-
-Note: The code is modified from [CRD], and the pretrained teachers (except WRN-40-4) are also downloaded from [CRD].
 
 [CRD]: https://github.com/HobbitLong/RepDistiller
 
