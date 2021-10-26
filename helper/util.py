@@ -60,10 +60,6 @@ def set_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
-    #more
-    #os.environ['PYTHONHASHSEED'] = ("%s" %seed)
-    #torch.cuda.manual_seed_all(seed)
-    #torch.backends.cudnn.deterministic = True 
     
     
 def cluster(f_s, f_t, label, num_classes):
