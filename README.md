@@ -4,8 +4,8 @@ This repository is a PyTorch implementation of "Comprehensive Knowledge Distilla
 
 ## Requirements
 
-```
 The code was tested on
+```
 Python 3.6
 torch 1.2.0
 torchvision 0.4.0
