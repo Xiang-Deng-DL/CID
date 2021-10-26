@@ -24,7 +24,7 @@ To train students from scratch by distilling knowledge from teacher networks wit
 [CRD]: https://github.com/HobbitLong/RepDistiller
 
 ## Citation
-If you find this code helpful, you may consider citing the paper:
+If you find this code helpful, you may consider citing this paper:
 ```bibtex
 @inproceedings{deng2021comprehensive,
   title={Comprehensive Knowledge Distillation with Causal Intervention},
