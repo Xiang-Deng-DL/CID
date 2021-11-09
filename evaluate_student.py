@@ -1,5 +1,5 @@
 """
-training framework of CID
+Evaluation
 """
 
 from __future__ import print_function
