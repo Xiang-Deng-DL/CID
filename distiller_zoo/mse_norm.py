@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue April  5 11:32:48 2020
-
-@author: xiangdeng
-"""
-
 from __future__ import print_function
 
 import torch.nn as nn
