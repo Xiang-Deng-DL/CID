@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 
 class KL(nn.Module):
-    """Distilling the Knowledge in a Neural Network"""
+    """KL_div"""
     def __init__(self, T):
         super(KL, self).__init__()
         self.T = T
